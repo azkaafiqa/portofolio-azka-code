@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azka</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+   
+    <header>
+        <h1>Selamat Datang di Portofolio Saya</h1>
+        <nav>
+            <a href="https://www.dicoding.com/users/azka_afiqa_putribcqw/academies">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#experience">Pengalaman</a>
+        </nav>
+    </header>
+
+    <main>
+        <article id="about">
+            <h2>Tentang Saya</h2>
+            <p>Nama saya Azka, dan di sekolah, saya dikenal sebagai seseorang yang memiliki ketertarikan besar pada dunia teknologi. Namun, ada satu pengalaman yang benar-benar menguji mental dan logika saya, yaitu saat saya harus menyelesaikan sebuah proyek coding yang cukup rumit.</p>
+            
+            <h2 id="experience">Pengalaman Saya</h2>
+            <p>Semuanya bermula ketika saya ditantang untuk membuat website sederhana sebagai tugas akhir mata pelajaran Informatika. Awalnya, saya merasa sangat bersemangat. Membayangkan program yang saya buat bisa berjalan dengan lancar rasanya sangat membanggakan. Namun, realitanya ternyata tidak semudah menekan tombol run.</p>
+            <p>Tantangan terbesar muncul saat saya menghadapi ribuan baris kode yang tiba-tiba mengalami error. Saya ingat betul, ada satu malam di mana saya menghabiskan waktu berjam-jam hanya untuk mencari satu kesalahan kecil, seperti titik koma (;) yang terlewat atau kurung kurawal ({}) yang tidak tertutup. Rasanya sangat frustrasi. Rasanya ingin menyerah saja dan mengumpulkan tugas seadanya.</p>
+            <p>Namun, saya teringat bahwa nama saya adalah Azka, dan seorang programmer sejati tidak akan membiarkan bug menang. Saya mulai belajar untuk lebih teliti. Saya mencari referensi di forum-forum komunitas, menonton tutorial, dan bertanya kepada guru. Saya belajar bahwa error bukanlah kegagalan, melainkan cara program memberi tahu saya bahwa ada sesuatu yang perlu diperbaiki.</p>
+            <p>Momen yang paling membahagiakan adalah ketika kalimat "Process finished with exit code 0" atau tampilan program yang saya inginkan akhirnya muncul di layar. Rasa lelah berjam-jam itu hilang seketika, digantikan oleh rasa bangga yang luar biasa.</p>
+            <p>Dari proyek sulit ini, saya, Azka, belajar banyak hal melebihi sekadar bahasa pemrograman. Saya belajar tentang logika berpikir kritis, ketelitian, dan yang terpenting adalah kerendahan hati untuk terus belajar. Coding mengajarkan saya bahwa masalah besar bisa diselesaikan jika kita memecahnya menjadi bagian-bagian kecil yang logis.</p>
+        </article> 
+
+        <aside>
+            <h2>Bio Data Saya</h2>
+            <img src="img/Screenshot 2026-04-09 101510.png" alt="Foto Saya">
+            <p>Nama : Azka Afiqa Putri Haura</p>
+            <p>Alamat : Lampung - Indonesia</p>
+            <p>Profesi : Siswi</p>
+            <p>Email : azkaafiqa21@gmail.com</p>
+        </aside>  
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Azka Afiqa Putri</p>
+        <p id="date"></p>
+    </footer>
+          
+    <script>
+        const currentDate = new Date();
+        document.getElementById('date').textContent = 'Tanggal: ' + currentDate.toLocaleDateString();
+    </script>
+
+</body>
+</html>
